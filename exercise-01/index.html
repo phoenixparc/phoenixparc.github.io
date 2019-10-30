@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en"> 
    <!-- lang="en" - language attribute -->
-    <head>
+    <head> 
         <meta charset="utf-8">
         <title>My first Website</title> 
+        
+        <style>
+            main {
+                  background-color: green;
+                 }
+           main p {
+                   background-color: red;
+                  }
+        </style>
+        
     </head>
     <body>
-        <h1>Hello Berlin by night!</h1>
-        <div style="background-color: red; color: white">
-         <!-- div neutral block element = rapor -->
+       <header>
+           <h1>Hello Berlin by night!</h1> <!-- heading -->
+       </header>
+        <main style="color: white">
+         <!-- <div>, <main>, <span> neutral block elements = rapor -->
             <!-- <h1>,<p> block elements -->
             <p> 
              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -28,6 +40,11 @@
                 Ich muß bei <a href="http://www.google.com" target="_blank">Google</a> nachschauen! 
                 <!-- <a> anchor - inline elements - always with attribute-->  
             </p>
-         </div>
+         </main>
+         <footer>
+             <hr>
+             <p>&copy; 2019 phoenixparc
+             </p>
+         </footer>
     </body>
 </html>
