@@ -1,0 +1,40 @@
+/*
+Reset
+*/
+
+a {
+    color:black; 
+    text-decoration: none;
+}
+
+/*
+Color
+*/
+main {
+                  background-color: green; color:white;
+                 }
+            /*element selector*/
+            .main-paragraphs {
+                        background-color: blue
+                         }
+            /*class selector*/
+            .main-paragraphs {
+                        background-color: red
+                         }
+            .first-paragraph {
+                                color: green
+                            } 
+
+/*
+Layout
+*/
+
+/*
+Navigation
+*/
+
+/*
+Typography
+*/
+
+/*comments in CSS lower class definition overwrite upper definition */
