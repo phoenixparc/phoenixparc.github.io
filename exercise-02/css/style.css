@@ -11,12 +11,10 @@ a {
 Color
 */
 main {
-                  background-color: green; color:white;
+                  background-color: black; color:white;
                  }
             /*element selector*/
-            .main-paragraphs {
-                        background-color: blue
-                         }
+        
             /*class selector*/
             .main-paragraphs {
                         background-color: red
@@ -31,7 +29,17 @@ Layout
 
 header {
         padding-top: 50px;
-}
+        }
+body {
+    background-image: url("img/log-4576925_1920.jpg");
+    }
+
+/*.background-picture {
+    background-image: url("img/halloween-2905531_1920.jpg");
+        }*/
+    
+    /*href="css/style.css"img src="img/halloween-2905531_1920.jpg"*/;   
+
 
 /*
 Navigation
