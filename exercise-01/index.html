@@ -9,20 +9,33 @@
             main {
                   background-color: green;
                  }
-           main p {
-                   background-color: red;
-                  }
+            /*element selector*/
+            .main-paragraphs {
+                        background-color: blue
+                         }
+            /*class selector*/
+            .main-paragraphs {
+                        background-color: red
+                         }
+            .first-paragraph {
+                                color: green
+                            } 
+           /*id selector*/
+           /* #first-paragraph {
+                                color: green
+                            }  */
+        /*comments in CSS lower class definition overwrite upper definition */
         </style>
         
     </head>
-    <body>
+    <body class="home-page">
        <header>
            <h1>Hello Berlin by night!</h1> <!-- heading -->
        </header>
         <main style="color: white">
          <!-- <div>, <main>, <span> neutral block elements = rapor -->
             <!-- <h1>,<p> block elements -->
-            <p> 
+            <p class="main-paragraphs first-paragraph"> 
              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
              <!-- don´'t use <br> linebreak  -->
              <!-- <br>, <hr>, <img> <empty tag> -->
@@ -35,7 +48,7 @@
             <!-- <img src="with relative path">  img empty tag-->
             <!-- width="100%" means 100% of the parent element  -->
             <!-- alt="picture explaining" will be written if image link is broken alt -alternative text  -->
-            <p>   
+            <p id="second-paragraph"class="main-paragraphs">   
                 Hallo. Ich bin ein <span style="color:blue">kleiner Blindtext</span>. Und zwar schon so lange ich denken kann. Es war nicht leicht zu verstehen, was es bedeutet, ein blinder Text zu sein: Man ergibt keinen Sinn. Wirklich keinen Sinn.
                 Ich muß bei <a href="http://www.google.com" target="_blank">Google</a> nachschauen! 
                 <!-- <a> anchor - inline elements - always with attribute-->  
@@ -43,7 +56,7 @@
          </main>
          <footer>
              <hr>
-             <p>&copy; 2019 phoenixparc
+             <p class="footer-paragraph">&copy; 2019 phoenixparc
              </p>
          </footer>
     </body>
