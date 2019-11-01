@@ -1,0 +1,149 @@
+/* 
+Stylesheet for Homepage 02 in the MAT 22b class at DCI Oct/Nov 2019.
+Author Toralf Lischke
+*/
+
+/*
+Import
+
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap');
+/*
+Reset
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}     /*  * - means all in the page, empty selector*/ 
+
+/*
+Navigation
+*/
+
+.main-nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+}
+
+.main-nav ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+}
+
+.main-nav ul li{
+            margin-right: 10px;
+}
+
+.main-nav ul li a {
+            display: inline-block;
+            font-family: 'Helvetica',Arial, sans-serif;
+            background-color: orange;
+            color: white;
+            padding: 3px 6px;
+            text-decoration: none;
+}
+
+.main-nav ul li a:hover {        
+            background-color: red; 
+            color: black;
+}
+/* font-cascade - first find 'Helvetica', if not in system use 'Arial', if not include use 'sans-serif'*/
+
+/*
+Color
+*/
+
+body,
+footer p {
+    background-color: darkorange;    
+}
+/* .content-col {display: flex;
+flex-wrap: wrap;}
+*/
+
+header {
+    color: #000;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+}
+
+.skills header {
+    background-image: url();
+} 
+
+.profile header {
+    background-image: url();
+}
+
+h2 {
+  color: rgb(0,0,0);
+}
+
+main {
+    background-image: url();
+    background-color: rgb(255,255,255);
+    background-size: 20%;
+    
+}
+
+p {
+    color: #000;
+    background-color: rgb(255,255,255);  
+    padding-right:  1em;
+}
+
+footer {
+    color: #fff;
+}
+
+
+
+/*
+Typography
+*/
+
+
+/*
+Layout
+*/
+
+h1,h2,h3,h4,h5,h6,
+p,ul,ol {
+    padding-left: 20px;
+    padding-bottom: 1.0em;
+     padding-top: 0.5em;
+}
+
+h1 {
+     padding-top: 1.8em;
+}
+
+header {
+    height: 25vw; /* 15vw stands for 15% of the Viewport Width*/
+}
+
+main {
+    min-height: 70vh; /* 70vh stands for 70% of the Viewport Heigth*/
+}
+
+p {
+    width:80%;
+    margin-bottom: 0.5em;
+}
+
+article p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+aside p {
+    font-size: 0.8em;
+}
+
+
+/*comments in CSS lower class definition overwrite upper definition */

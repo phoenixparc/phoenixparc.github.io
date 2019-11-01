@@ -26,13 +26,16 @@ main {
 /*
 Layout
 */
+body {
+    background-image: url("img/halloween-2905531_1920.jpg");
+    }
 
+/*body {
+    background-color: blue;
+    }*/
 header {
         padding-top: 50px;
         }
-body {
-    background-image: url("img/log-4576925_1920.jpg");
-    }
 
 /*.background-picture {
     background-image: url("img/halloween-2905531_1920.jpg");
