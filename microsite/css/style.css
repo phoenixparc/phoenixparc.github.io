@@ -1,0 +1,150 @@
+/* 
+Stylesheet for exercise 02 in the MAT 22b class at DCI Oct/Nov 2019.
+Author Enno Hyttrek
+*/
+
+/*
+Import
+*/
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap');
+/*
+Reset
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}     /*  * - means all in the page, empty selector*/ 
+
+/*
+Navigation
+*/
+
+.main-nav {
+            /*position: fixed;
+            top: 0;
+            width: 100%;*/
+}
+
+.main-nav ul {
+            /*list-style-type: none;
+            /*display: flex;*/
+            padding: 0;*/
+}
+
+.main-nav ul li{
+            margin-left: 50px;
+            margin-right: 150px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+}
+
+.main-nav ul li{
+            /*display: inline-block;
+            font-family: 'Creepster', cursive;
+            font-size: 4em;
+            /*background-color: orange;
+            color: white;
+            padding: 3px 6px;
+            text-decoration: none;*/
+}
+
+.main-nav ul li {        
+            
+}
+
+.sec-nav ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+}
+
+.sec-nav ul li {
+            display: inline-block;
+            font-family: 'Creepster', cursive;
+            font-size: 3em;
+}
+
+
+/*
+Color
+*/
+
+body {
+    /*   min-height: 10vh;*/
+
+    background-image: url(../img/graal-mueritz-map.png);
+    background-size: cover;  
+} 
+
+
+p {
+    color: #fff;
+    background-color: rgb(255,128,0);  
+    padding-right:  1em;
+}
+
+/*footer {
+    color: black;
+}*/
+
+footer p {
+    font-family: 'Helvetica',Arial, sans-serif;    
+    font-size: 0.7em;
+    color: black;
+    background-color: 0 0 0 ;
+}
+
+/*
+Typography
+*/
+
+h1 {
+    font-family:: 'Helvetica',Arial, sans-serif;
+    font-size: 3em;
+    color: darkorange
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+Layout
+*/
+
+h1,h2,h3,h4,h5,h6,
+p,ul,ol {
+    padding-left: 20px;
+    padding-bottom: 1em;
+     padding-top: 0.2em;
+}
+
+h1 {
+     padding-top: 0.3em;
+}
+
+/*header {
+    height: 25vw; /* 15vw stands for 15% of the Viewport Width*/
+}*/
+
+
+
+main {
+    min-height: 70vh; /* 70vh stands for 70% of the Viewport Heigth*/
+}
+
+p {
+    width:80%;
+    margin-bottom: 0.5em;
+}
+
+article p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+
+/*comments in CSS lower class definition overwrite upper definition */

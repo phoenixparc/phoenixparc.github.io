@@ -1,0 +1,455 @@
+/* 
+Stylesheet for Homepage 02 in the MAT 22b class at DCI Oct/Nov 2019.
+Author Toralf Lischke
+*/
+
+/*
+Import
+
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap');
+/*
+Reset
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}     /*  * - means all in the page, empty selector*/ 
+
+/*
+Navigation
+*/
+
+.main-nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+}
+
+.main-nav ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+}
+
+.main-nav ul li{
+            margin-right: 10px;
+}
+
+.main-nav ul li a {
+            display: inline-block;
+            font-family: 'Helvetica',Arial, sans-serif;
+            background-color: orange;
+            color: white;
+            padding: 3px 6px;
+            text-decoration: none;
+}
+
+.main-nav ul li a:hover {        
+            background-color: red; 
+            color: black;
+}
+/* font-cascade - first find 'Helvetica', if not in system use 'Arial', if not include use 'sans-serif'*/
+
+.circle1 {
+            /*position: fixed;*/
+            top: 300px;
+            width: 100%;
+}
+
+
+
+
+.circle1 ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+}
+
+/*.circle1 ul {
+    background-color: red;
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    top: 0%;
+    left: 0%;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+}*/
+
+.circle1 ul li{
+            margin-right: 10px;
+}
+
+/*.circle1 ul li {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}*/
+
+.circle1 ul li a {
+            display: inline-block;
+            font-family: 'Helvetica',Arial, sans-serif;
+            background-color: red;
+            color: white;
+            /*margin: 0 0 0 0;*/
+            padding-top: 40%;
+           
+            text-decoration: none;
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            /*top: 0%;
+            left: 0%;*/
+            border: 1px solid black;
+            border-radius: 100%;
+            
+}
+
+/*.circle1 ul li {
+    box-sizing: inherit;
+    margin: auto;
+    background-color: red;
+}
+
+
+.circle1 ul li  {
+    width: 20%;
+    height: 20%;
+}*/
+
+/*.circle ul li a {
+            display: inline-block;
+            font-family: 'Helvetica',Arial, sans-serif;
+            background-color: orange;
+            color: white;
+            padding: 3px 6px;
+            text-decoration: none;
+}*/
+
+.circle1 ul li a:hover {        
+            background-color: red; 
+            color: black;
+}
+
+/*
+Color
+*/
+
+
+.circle-txt-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.circle-txt-size {
+    box-sizing: inherit;
+    margin: auto;
+    padding: 0;
+}
+
+.circle-txt-prop {
+    text-align: center;
+    color: green;
+    font: 1.2em bold;
+    
+}
+
+
+body,
+footer p {
+    background-color: darkorange;    
+}
+/* .content-col {display: flex;
+flex-wrap: wrap;}
+*/
+
+header {
+    color: #000;
+    background-image: url();
+    /*background-size: cover;*/
+    background-position: center;
+    background-color: #fff;
+}
+
+.skills header {
+    background-image: url();
+} 
+
+.profile header {
+    background-image: url();
+}
+
+
+h2 {
+  color: rgb(0,0,0);
+}
+
+main {
+    background-image: url(../img/icons8-brandenburger-tor-50.png);
+    background-image: url(../img/icons8-berliner-fernsehturm-50.png);
+    background-color: rgb(255,255,255);
+    background-size: 10%;    
+}
+
+/*p {
+    color: red;
+    background-color: rgb(255,255,255);  
+    padding-right:  1em;
+}*/
+
+footer {
+    color: #fff;
+}
+
+
+
+/*
+Typography
+*/
+
+
+/*
+Layout
+*/
+
+/* some header stuff*/
+.index-h1 {
+    
+}
+
+h1,h2,h3,h4,h5,h6,
+p,ul,ol {
+    padding-left: 20px;
+    padding-bottom: 1.0em;
+     padding-top: 0.5em;
+}
+
+h1 {
+     padding-top: 1.3em;
+}
+
+
+
+.h1-p2 {color:red;}
+
+#color-h1 {color: green}
+
+header {
+    height: 25vw; /* 15vw stands for 15% of the Viewport Width*/
+}
+
+.div-col {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+}
+
+/*
+
+graue Box 1 (für abgerundete Box)
+
+#box1 {
+    background-color: yellow;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 25px;
+    border: 1px solid black;
+}
+
+graue Box 2 (für Kreis)
+
+#box2 {
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 250px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+Box mit abgerundeten Ecken
+
+#box1 {
+    background-color: yellow;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 25px;
+    border: 1px solid black;
+    border-radius: 40px 40px 0 0;
+}
+
+Zusätzlich ändern wir noch die Höhe von Box 1, damit wir die entsprechende Karteikartenreiteroptik bekommen.
+
+#box1 {
+    background-color: yellow;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+}
+
+Kreis Box
+    
+#box2 {
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 250px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 100px;
+}  
+*/
+.circle div {
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 0%;
+    left: 0%;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.circle-position {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/*.circle-size {
+    box-sizing: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: red;
+}*/
+
+.circle-size {
+    box-sizing: inherit;
+    margin: auto;
+    background-color: red;
+}
+
+
+.circle-size1 {
+    width: 70%;
+    height: 30%;
+}
+.circle-size2 {
+    width: 70%;
+    height: 30%;
+}
+.circle-size3 {
+    width: 30%;
+    height: 30%;
+}
+.circle-size4 {
+    width: 40%;
+    height: 70%;
+}
+.circle-size5 {
+    width: 70%;
+    height: 50%;
+}
+
+.circle-size6 {
+    width: 70%;
+    height: 50%;
+}
+
+/*.circle-size p {
+    text-align: center;
+    color: green;
+    box-sizing: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.2em;
+}*/
+
+.circle-txt-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.circle-txt-size {
+    box-sizing: inherit;
+    margin: auto;
+    padding: 0;
+}
+
+.circle-txt-prop {
+    text-align: center;
+    color: green;
+    font: 1.2em bold;
+    
+}
+
+/*<img src="https://img.icons8.com/ios/64/000000/berlin-tv-tower.png">
+<a href="https://icons8.com/icon/41494/berliner-fernsehturm">Berliner Fernsehturm icon by Icons8</a>
+
+<img src="https://img.icons8.com/ios/64/000000/brandenburg-gate.png">
+<a href="https://icons8.com/icon/1980/brandenburger-tor">Brandenburger Tor icon by Icons8</a>*/
+
+
+main {
+    min-height: 70vh; /* 70vh stands for 70% of the Viewport Heigth*/
+}
+
+
+
+p {
+    width:80%;
+    margin-bottom: 2.0em;
+}
+
+article p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+aside p {
+    font-size: 0.8em;
+}
+
+
+/*comments in CSS lower class definition overwrite upper definition */
