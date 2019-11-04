@@ -1,0 +1,18 @@
+/* 
+Stylesheet for exercise 02 in the MAT 22b class at DCI Oct/Nov 2019.
+Author Enno Hyttrek
+*/
+.item1 {
+  grid-column: 1 / 5;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto  auto;
+}
+/*.grid-container > div {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}*/

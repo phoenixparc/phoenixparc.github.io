@@ -23,9 +23,9 @@ Navigation
 */
 
 .main-nav {
-            /*position: fixed;
-            top: 0;
-            width: 100%;*/
+            position: fixed;
+            top: 12%;
+            width: 100%;
 }
 
 .main-nav ul {
@@ -35,10 +35,10 @@ Navigation
 }
 
 .main-nav ul li{
-            margin-left: 50px;
-            margin-right: 150px;
-            margin-top: 0px;
-            margin-bottom: 30px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 0;
+            margin-bottom: 4%;
 }
 
 .main-nav ul li{
@@ -64,7 +64,12 @@ Navigation
 .sec-nav ul li {
             display: inline-block;
             font-family: 'Creepster', cursive;
-            font-size: 3em;
+            font-size: 2em;
+            min-height: 10vh;
+            max-height: 20vh;
+            min-width: 10vh;
+            max-width: 20vh;
+           
 }
 
 
@@ -72,23 +77,17 @@ Navigation
 Color
 */
 
-body {
-    /*   min-height: 10vh;*/
-
-    background-image: url(../img/graal-mueritz-map.png);
-    background-size: cover;  
-} 
-
+.grid-container {
+   top: 0; 
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
 
 p {
     color: #fff;
     background-color: rgb(255,128,0);  
     padding-right:  1em;
 }
-
-/*footer {
-    color: black;
-}*/
 
 footer p {
     font-family: 'Helvetica',Arial, sans-serif;    
@@ -103,14 +102,10 @@ Typography
 
 h1 {
     font-family:: 'Helvetica',Arial, sans-serif;
-    font-size: 3em;
-    color: darkorange
+    font-size: 2em;
+    color: dodgerblue;
+    background-color: darkorange;
 }
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 /*
 Layout
 */
@@ -118,7 +113,7 @@ Layout
 h1,h2,h3,h4,h5,h6,
 p,ul,ol {
     padding-left: 20px;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
      padding-top: 0.2em;
 }
 
@@ -126,15 +121,16 @@ h1 {
      padding-top: 0.3em;
 }
 
-/*header {
-    height: 25vw; /* 15vw stands for 15% of the Viewport Width*/
-}*/
-
-
-
-main {
-    min-height: 70vh; /* 70vh stands for 70% of the Viewport Heigth*/
+header {
+    top: 0;
+    height: 10vw; /* 15vw stands for 15% of the Viewport Width*/
 }
+
+
+
+/*main {
+    min-height: 70vh; /* 70vh stands for 70% of the Viewport Heigth*/
+}*/
 
 p {
     width:80%;
