@@ -22,6 +22,7 @@ Reset
 Navigation
 */
 
+
 .main-nav {
             position: fixed;
             top: 0;
@@ -96,7 +97,9 @@ Navigation
 Color
 */
 
-body,
+body {
+}
+
 footer p {
     background-color: darkorange;    
 }
@@ -104,13 +107,13 @@ footer p {
 flex-wrap: wrap;}
 */
 
-header {
+/*header {
     color: #000;
     background-image: url();
     /*background-size: cover;*/
-    background-position: center;
-    background-color: #fff;
-}
+    /*background-position: center;
+    background-color: #fff;*/
+}*/
 
 .skills header {
     background-image: url();
@@ -126,10 +129,11 @@ h2 {
 }
 
 main {
-    background-image: url(../img/icons8-brandenburger-tor-50.png);
+    /*background-image: url(../img/icons8-brandenburger-tor-50.png);
     background-image: url(../img/icons8-berliner-fernsehturm-50.png);
-    background-color: rgb(255,255,255);
-    background-size: 10%;    
+    background-color: rgb(255,255,255);*/
+    background-size: 10%;   
+    /*border:30px;*/
 }
 
 footer {
@@ -148,19 +152,19 @@ Layout
 */
 
 /* some header stuff*/
-.index-h1 {
+/*.index-h1 {
     
-}
+}*/
 
-h1,h2,h3,h4,h5,h6,
+h2,h3,h4,h5,h6,
 p,ul,ol {
     padding-left: 20px;
-    padding-bottom: 1.0em;
+    padding-bottom: 0.5em;
      padding-top: 0.5em;
 }
 
-h1 {
-     padding-top: 1.3em;
+.h1-pos-index {
+     padding-top: 1.2em;
 }
 
 
@@ -170,7 +174,7 @@ h1 {
 #color-h1 {color: green}
 
 header {
-    height: 25vw; /* 15vw stands for 15% of the Viewport Width*/
+    height: 10vw; /* 15vw stands for 15% of the Viewport Width*/
 }
 
 .div-col {
@@ -179,11 +183,6 @@ header {
             padding: 0;
 }
 
-/*<img src="https://img.icons8.com/ios/64/000000/berlin-tv-tower.png">
-<a href="https://icons8.com/icon/41494/berliner-fernsehturm">Berliner Fernsehturm icon by Icons8</a>
-
-<img src="https://img.icons8.com/ios/64/000000/brandenburg-gate.png">
-<a href="https://icons8.com/icon/1980/brandenburger-tor">Brandenburger Tor icon by Icons8</a>*/
 
 
 main {
