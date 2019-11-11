@@ -205,6 +205,10 @@ article p {
 aside p {
     font-size: 0.8em;
 }
-
+.box {
+    height: 300px;
+    width: 200px;
+    background-color: red;
+}
 
 /*comments in CSS lower class definition overwrite upper definition */
