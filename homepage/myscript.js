@@ -1,12 +1,8 @@
-function test( ){
- var a=1, b=3;
- return a + b;
+function toggleMobileNav() {    
+  var x = document.getElementById("mobile-nav");
+  if (x.style.height === "195px") {
+    x.style.height = "40px";
+  } else {
+    x.style.height = "195px";
+  }
 }
-document.getElementById("demo").innerHTML = test( );
-
-function counter-age() {
-var hex  = decimal.toString(16)  
-
-}
-
-document.getElementById("demo").innerHTML = test( );

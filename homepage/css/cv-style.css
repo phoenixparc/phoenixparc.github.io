@@ -23,13 +23,9 @@ a {
     text-decoration: none;
 }
 
- #desktop-list {
-   display: flex; 
-}  
-
 footer {
     color: rgb(210, 220, 230);
-    background-color: blue;
+    background-color: rgb(40, 50, 60);
     font-size: 0.8em;
 }
 
@@ -43,7 +39,7 @@ footer a:hover {
 }
 
 nav#secondary-nav {
-    /*position: fixed;*/
+    position: fixed;
     bottom: 0;
 }
 
@@ -92,8 +88,7 @@ body {
     background: fixed;
     background-image: url(../img/icons8-berliner-fernsehturm-50.png);
 }
-
- 
+       
         
 /* 
 Reset
@@ -112,32 +107,10 @@ Layout, mobile first
         
 body,
 section {
-    padding-top: 13vw;
-}  
+    padding-top: 5vw;
+}     
 
-#cvHeaderlist{
-    /*list-style-type: none;*/
-    padding-top: 4vh;
-    padding-left: 12vh;
-    padding-bottom: 8vh;
-    
-    
-}
-
-#cvMainlist{
-    /*list-style-type: none;*/
-    padding-top: 2vh;
-    padding-left: 8vh;
-    padding-bottom: 10vh;
-}
-
-.cvAbstand {
-    
- padding-bottom: 2vh;
- font-size: 3vh
-}
-
-article,p {
+article, p {
     margin: 1em 0;
 }
 
@@ -150,8 +123,26 @@ footer {
 #desktop-nav ul,        
 h1,h2,h3,
 p {
-   padding: 0 20px;         
+   padding: 30px 20px;         
         }
+
+h1 {
+padding-left: 10vw;
+}
+
+#headerList{
+    /*list-style-type: none;*/
+    padding-top: 4vh;
+    padding-left: 12vh;
+    padding-bottom: 10vh;
+    
+    
+}
+
+header ul li {
+    padding-bottom: 3vw;
+    font-size: 3vh;
+}
                
         
 /* 
@@ -162,62 +153,23 @@ Nav
 /** 
 Nav, general
 **/
-main a {        
-            display: block;
-            color: white;
-            padding-top: 12vw;
-            text-decoration: none;
-            text-align: center;
-            width: 40vw;
-            height:40vw;
-            border: 1px solid black;
-            border-radius: 20vw;
-            font-size: 0.8em;
-                                /*background-image: url(../img/night-photograph-4581108_1920.jpg);*/
-            background-size: cover;
-            /*overflow: visible;*/
-}
-
-a.aSkills {
-    background-color: red;
-    margin-top: 10vh;
-  }
-
-a.aExperiences {
-    background-color: blue;
-    margin-top: 10vh;
-}
-
-a.aCV {
-    background-color: green;
-    }
-
-a.aLikes {
-    background-color: orange;
-    background-image: url(../img/night-photograph-4581108_1920.jpg);
-    background-position: center;
-    background-size: cover;
-    }
 
 
 main ul {
     list-style-type: none;
+    marging-top: 4hw;
 }
-
 
 main ul ul {
     display: block;
 }
 
 main ul li {
-    margin-left: 2vw;
+    margin-left: 10vw;
+    margin-right: auto;
     padding-left: 1vw;
-    padding-bottom: 3vw;
-    font-size: 4vw;
-}
-
-main ul li a p {
-    font-size: 2vw;
+    padding-bottom: 4vw;
+    font-size: 3vw;
 }
 
   
@@ -227,15 +179,13 @@ nav ul {
 
 nav a {
     color: rgb(240,240,240);
-    background-color: blue;
-        border-radius: 2vh
+    background-color: rgba(50,60,70,0.8);
 } 
 
 nav a:hover {
     color: #fff;
-    background-color: blue;
+    background-color: rgb(255,128,0);
 } 
-
         
 /** 
 Nav, mobile
@@ -301,13 +251,16 @@ Nav, desktop
 #desktop-nav ul {
     display: flex;
 }
-    
+
+
 #desktop-nav ul li a {
     padding: 3px 5px;
     margin-right: 2px;
 }
 
-        
+  #desktop-list {
+   display: flex; 
+}      
         
 /* 
 Responsive design, mobile first 
@@ -319,19 +272,16 @@ Responsive design, mobile first
     /* 
     Nav, desktop
     */
-    
-#desktop-list {
-   display: flex; 
-}
+
     
 
   #desktop-nav {
         display: block;
-           }
+    }
 
     #mobile-nav {
         display: none;
-    }
+     }
     /* 
     Layout, desktop 
     */   
@@ -348,7 +298,3 @@ Responsive design, mobile first
         padding: 0 10vw;         
     }
  }
-
-#skillsSectionmargin {
-    margin-left: 10vw;
-} 

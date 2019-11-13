@@ -2,99 +2,88 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>t-men</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+    
+    <link rel="stylesheet" href="css/style.css">       
+<style>
+    
+</style>
+    
+<script>
+              
+</script>
+    
 </head>
-
 <body>
     <header>
-            <h1 class="h1-pos-index">welcome</h1>
-           <h2>TORALF LISCHKE</h2>
-            <h3>alias T-Men</h3>
-            <h3>alias...</h3>
-             <h3>Some little stuff about the T-Men</h3>
-       
-    </header>
-    
-    <main>
-      
-        I'm feeling good..
-                 
-            </p>
-            <p>
-            <div class="div-col">
-            <ul>
-                <li>born and livig in berlin</li>
-                <li>Physicist</li>
-                <li>problem solver in own... </li>
-                 <li>nature: calmy, friendly, but...</li>
-                 <li>...Daddy of two wunderful wild little boys (You understand?!)</li> 
-            </ul> 
-             
-            <img src="img/night-photograph-4581108_1920.jpg" width="30%" alt="Picture of Berlin by night">
-           
-             <div>
-             <p id="demo3" onclick="myFunction()">If You want get out about the fantastic T-Men klick me</p>
-             <!--<p id="demo4" onclick="htmlFunction()">If You want get out about the fantastic T-Men klick me</p>-->
-    </div>
-            <p></p>;
-            <p id="demo"></p>
-            <p>Bin</p>;
-            <p id="demo1"></p>
-            <p>Sekunden</p>;
-            <p id="demo2"></p>
-           
-            <a id = "demo4" href="htmlFunction()">what the T-Men like</a>      
-           
-     
-      
-    </main>
-    
-    <footer>
-        <p>
-        &copy; 2019 Toralf Lischke
-            <a href="https://icons8.com/icon/41494/berliner-fernsehturm">Berliner Fernsehturm icon by Icons8</a>
-        </p>
-         <nav class="circle1">
-                 <ul>
-                <!--<li><a href="profile.html">Profile</a></li>-->
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="experiences.html">Experiences </a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="lookhere.html">What I like</a></li>  
-                <li><a href="contact.html">This Minute</a>
-                 </ul>
-            </nav>  
-        <p class = "box"> test </p> 
-    </footer>
-      <!--  <script src="myScript.js"></script> -->  
-   <!-- <script> function test(){
- var a=1, b=2;
- return a + b;
-}
-document.getElementById("demo").innerHTML = test();   
-               </script>   -->  
-  <script> 
-         var decAge = 49;
-         var binAge = decAge.toString(2);
-         var decBirthday = 7548 + 48;
-         var hexBirthday = decBirthday.toString(16);
-         document.getElementById("demo").innerHTML = "age:" + binAge + " Years";
-         document.getElementById("demo1").innerHTML = "birthday: #" + hexBirthday + " hours"; 
-     
+        <h1>welcome</h1>
+        <div></div>
+            <h2>Toralf Lischke</h2>
+      <nav id="mobile-nav">
+
+            <div id="burger-icon" onclick="toggleMobileNav()">
+                <div></div>
+                <div></div>                
+                <div></div>             
+            </div>
    
+            <ul>
+                <li><a href="properties.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">More Knowledge</a></li> 
+                 <li><a href="skills.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">Skills</a>       
+                <li><a href="experiences.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">Experiences</a></li> 
+                 <li><a href="cv.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">CV</a></li> 
+                <li><a href="likes.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">What I like!</a></li>
+            </ul>    
+        </nav>
+        
+        <nav id="desktop-nav">
+   
+            <ul>
+                <li><a href="properties.html">More Knowledge</a></li>
+                  <li><a href="skills.html">Skills</a></li> 
+                 <li><a href="experiences.html">Experiences</a></li> 
+                 <li><a href="cv.html">CV</a></li>
+                  <li><a href="likes.html">What I like!</a></li>  
+            </ul>    
+        </nav>
+        
+        
+    </header>
+    <main>
+  <section id="section1">
+        <h3>alias T-Men</h3>
+              <article>
+            <h3>Some little stuff about the T-Men</h3>
+             <ul id="desktop-list">
+                <li>
+                    <ul>
+                        <li>born and livig in berlin</li>
+                        <li>Physicist</li>
+                        <li>problem solver in own authority and in team</li>
+                        <li>nature: calmy, but...</li>
+                        <li>...Daddy of two wild little boys (You understand?!)
+                        </li>   
+                    </ul>
+                </li>   
+               <li><a href="properties.html" class="aLikes"><p>Want You more learn about the T-Men?</p>
+                    <p>Click me!</p></a> </li>
+            </ul>
+              </article> 
+    </section>
+    </main>
+   <footer>
+        <p>
+            By interest please do not hesitate to contact me by email: <a href="#">tlischke@hotmail.de</a>
+        </p>
+        <p>Toralf Lischke, 2019.</p>  
+        <nav id="secondary-nav">
+            <ul>
+            <li><a href="Impressum.html">Impressum</a></li> 
+            </ul>
+        </nav>
+    </footer>
 
-
-function myFunction() {
-    document.getElementById("demo3").style.color = "red";
-}
-
- function htmlFunction() {
-   document.getElementById("demo4").innerHTML = "skills.html"; 
- }
-         
-</script>             
-         
-               
-</body>"
+    <script src="myScript.js"></script>
+</body>
 </html>
